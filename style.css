@@ -1,7 +1,60 @@
+@font-face {
+    font-family: "NorseBold";
+    src: url("/fonts/Norse-Bold.otf");
+}
+
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .flex-container {
     display: flex;
+}
+
+.form {
+    border: solid 2px red;
+    /*TBD*/
+}
+
+.sidebar {
+    background-image: url("/images/background.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+
+    height: 800px;
+    /*TBD*/
+    border: solid 2px purple;
+    /*TBD*/
+}
+
+.sidebar>div {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "NorseBold";
+    font-size: 120px;
+    color: white;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.sidebar-image {
+    /*TBD*/
+    max-width: 125px;
+    height: auto;
+}
+
+footer {
+    color: white;
+    padding: 10px;
+}
+
+a:visited {
+    color: white;
 }
