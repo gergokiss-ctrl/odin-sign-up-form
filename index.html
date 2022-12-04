@@ -14,7 +14,7 @@
         <div class="sidebar">
             <div>
                 <img src="/images/odin-lined.png" class="sidebar-image" alt="Odin Logo">
-                <p>Odin</p>
+                <p class="logo-text">Odin</p>
             </div>
             <footer>
                 Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a
@@ -23,10 +23,10 @@
         </div>
 
         <div class="content">
-            <div>
+            <div class="header">
                 <p>This is not a real online service! You know you need something like this in your life to help you
                     realize your deepest dreams.<br>
-                    Sign up <em>now</em> to get started.</p>
+                    Sign up <em>now</em> to get started.</p><br>
 
                 <p>You <em>know</em> you want to.</p>
             </div>
@@ -62,20 +62,22 @@
                     <div class="row">
                         <div class="group">
                             <label for="pass1">Password</label>
-                            <input type="password" id="pass1" name="pass1">
+                            <input type="password" id="pass1" name="pass1" required class="error">
                         </div>
 
                         <div class="group">
                             <label for="pass2">Confirm password</label>
-                            <input type="password" id="pass2" name="pass2">
+                            <input type="password" id="pass2" name="pass2" required class="error">
                         </div>
                     </div>
                 </div>
             </form>
 
-            <div>
-                <button>Create Account</button>
-                Already have an account? <a href="/index.html">Log in</a>
+            <div class="footer">
+                <button>Create Account</button><br>
+                <p class="footer-text">
+                    Already have an account? <a href="/index.html" class="login">Log in</a>
+                </p>
             </div>
         </div>
     </div>
