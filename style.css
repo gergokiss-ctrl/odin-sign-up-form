@@ -40,7 +40,7 @@ form,
 }
 
 .sidebar {
-    background-image: url("/images/background.avif");
+    background-image: url("images/background.avif");
     background-size: cover;
     display: flex;
     flex-direction: column;
